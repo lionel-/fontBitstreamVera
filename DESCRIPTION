@@ -1,0 +1,13 @@
+Package: fontBitstreamVera
+Title: Bitstream Vera Font for Fontquiver
+Version: 0.1
+Authors@R: c(
+    person("Lionel", "Henry", , "lionel.hry@gmail.com", c("cre", "aut")),
+    person("Bitstream", role = "cph"))
+Description: Provides Bitstream Vera family of fonts for the fontquiver package.
+Depends:
+    R (>= 3.3.0)
+License: file LICENCE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
