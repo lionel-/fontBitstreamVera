@@ -1,5 +1,5 @@
 ## Test environments
-* local OS X install, R 3.3.1
+* local OS X install, R 3.3.1 and R 3.0.3
 * ubuntu 12.04 (on travis-ci), R 3.3.1
 * win-builder (devel and release)
 
@@ -7,20 +7,11 @@
 
 0 errors | 0 warnings | 1 note
 
-* This is a new release.
-
-There was 1 NOTE:
-
-* Non-FOSS package license (file LICENCE)
-
-But the Bitstream Vera Fonts licence is actually FOSS.
-
-## Resubmission
-
-Fixed 'Bistream' typos.
+Note: override for the Bitstream Vera Fonts Licence
 
 ## Reverse dependencies
 
-This is a new release, so there are no reverse dependencies.
+This release is meant to fix issues with some reverse dependencies
+(vdiffr and ggstance).
 
 ---
